@@ -28,7 +28,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_ACR\data\equip1_co.paa",
-			"\reaperCrew_cup_headgear\data\booniefolded_M81_test_co"
+			"rc_assets_pack_cup\addons\reaperCrew_cup_headgear\data\booniefolded_M81_test_co"
 		};
 	};
 };
