@@ -10,10 +10,17 @@ class CfgPatches
             "U_reaperCrew_BDU_roll_m84",
             "U_reaperCrew_BDU_roll_gloves_m84",
             "U_reaperCrew_BDU_roll2_m84",
-            "U_reaperCrew_BDU_roll2_gloves_m84"
+            "U_reaperCrew_BDU_roll2_gloves_m84",
+			"B_reaperCrew_Assaultpack_m84",
+			"B_reaperCrew_Carryall_m84",
+			"B_reaperCrew_Kitbag_m84",
+			"B_reaperCrew_TacticalPack_m84",
+			"B_reaperCrew_RadioBag_m84"
         };
         weapons[] = 
         {
+			"reaperCrew_H_Bonniehat_m84",
+			"reaperCrew_H_Bonniehat_m84_hs",
 			"reaperCrew_HelmetACH_GCOVERED_Headset_m84",
 			"reaperCrew_HelmetACH_ESS_Headset_m84",
             "reaperCrew_HelmetACH_Headset_m84",
@@ -52,6 +59,32 @@ class CfgWeapons
 	class CUP_H_USArmy_HelmetACH_Headset_UCP: ItemCore
 	{
 		class Iteminfo;
+	};
+	class H_Booniehat_indp;
+	class H_Booniehat_khk_hs;
+
+	class reaperCrew_H_Bonniehat_m84: H_Booniehat_indp
+	{
+		scope=2;
+		scopeCurator=2;
+		displayName="[RC] Booniehat (M84)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_booniehat_m84_co.paa"
+		};
+	};
+	class reaperCrew_H_Bonniehat_m84_hs: H_Booniehat_khk_hs
+	{
+		scope=2;
+		scopeCurator=2;
+		displayName="[RC] Booniehat (Headset/M84)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_booniehat_m84_co.paa"
+		};
 	};
 	class reaperCrew_HelmetACH_Headset_m84: ItemCore
 	{
@@ -686,11 +719,11 @@ class CfgVehicles
 		uniformClass="reaperCrew_BDU_mm14";
 		hiddenSelectionsTextures[]=
 		{
-			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_CO.paa",
-			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_CO.paa",
-            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_CO.paa",
-            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_CO.paa",
-            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_flag_Ukraine.paa"
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            ""
 		};
 	};
     class U_reaperCrew_BDU_m84: CUP_B_USArmy_Soldier_BDUv2_OD
@@ -778,6 +811,64 @@ class CfgVehicles
             "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_CO.paa",
             "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_co.paa",
             ""
+		};
+	};
+
+	//Backpacks
+	class B_AssaultPack_rgr;
+	class B_Carryall_Base;
+	class B_Kitbag_Base;
+	class B_TacticalPack_Base;
+	class B_RadioBag_01_black_F;
+
+	class B_reaperCrew_Assaultpack_m84: B_AssaultPack_rgr
+	{
+		scope=2;
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		displayName="[RC] Assault Pack (M-84)";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_backpack_compact_m84_co.paa"
+		};
+	};
+	class B_reaperCrew_Carryall_m84: B_Carryall_Base
+	{
+		scope=2;
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		displayName="[RC] Carryall Backpack (M-84)";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_backpack_tortila_m84_co.paa"
+		};
+	};
+	class B_reaperCrew_Kitbag_m84: B_Kitbag_Base
+	{
+		scope=2;
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		displayName="[RC] Kitbag (M-84)";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_backpack_fast_m84_co.paa"
+		};
+	};
+	class B_reaperCrew_TacticalPack_m84: B_TacticalPack_Base
+	{
+		scope=2;
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		displayName="[RC] Tactical Backpack (M-84)";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_backpack_small_m84_co.paa"
+		};
+	};
+	class B_reaperCrew_RadioBag_m84: B_RadioBag_01_black_F
+	{
+		scope=2;
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		displayName="[RC] Radio Pack (M-84)";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_RadioBag_m84_co.paa"
 		};
 	};
 };
