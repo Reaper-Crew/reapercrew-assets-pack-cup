@@ -5,25 +5,60 @@ class CfgPatches
         units[] = 
         {
             "U_reaperCrew_BDU_mm14",
+			"U_reaperCrew_BDU_gloves_mm14",
+			"U_reaperCrew_BDU_roll_mm14",
+			"U_reaperCrew_BDU_roll_gloves_mm14",
+			"U_reaperCrew_BDU_roll2_mm14",
+			"U_reaperCrew_BDU_roll2_gloves_mm14",
+			"U_reaperCrew_BDU_mm14_mix",
+			"U_reaperCrew_BDU_gloves_mm14_mix",
+			"U_reaperCrew_BDU_roll_mm14_mix",
+			"U_reaperCrew_BDU_roll_gloves_mm14_mix",
+			"U_reaperCrew_BDU_roll2_mm14_mix",
+			"U_reaperCrew_BDU_roll2_gloves_mm14_mix",
             "U_reaperCrew_BDU_m84",
             "U_reaperCrew_BDU_gloves_m84",
             "U_reaperCrew_BDU_roll_m84",
             "U_reaperCrew_BDU_roll_gloves_m84",
             "U_reaperCrew_BDU_roll2_m84",
             "U_reaperCrew_BDU_roll2_gloves_m84",
+			"U_reaperCrew_BDU_m84_mix",
+            "U_reaperCrew_BDU_gloves_m84_mix",
+            "U_reaperCrew_BDU_roll_m84_mix",
+            "U_reaperCrew_BDU_roll_gloves_m84_mix",
+            "U_reaperCrew_BDU_roll2_m84_mix",
+            "U_reaperCrew_BDU_roll2_gloves_m84_mix",
 			"B_reaperCrew_Assaultpack_m84",
 			"B_reaperCrew_Carryall_m84",
 			"B_reaperCrew_Kitbag_m84",
 			"B_reaperCrew_TacticalPack_m84",
-			"B_reaperCrew_RadioBag_m84"
+			"B_reaperCrew_RadioBag_m84",
+			"B_reaperCrew_Assaultpack_mm14",
+			"B_reaperCrew_Carryall_mm14",
+			"B_reaperCrew_Kitbag_mm14",
+			"B_reaperCrew_TacticalPack_mm14",
+			"B_reaperCrew_RadioBag_mm14"
         };
         weapons[] = 
         {
+			"reaperCrew_H_patrol_cap_m84",
 			"reaperCrew_H_Bonniehat_m84",
 			"reaperCrew_H_Bonniehat_m84_hs",
 			"reaperCrew_HelmetACH_GCOVERED_Headset_m84",
 			"reaperCrew_HelmetACH_ESS_Headset_m84",
             "reaperCrew_HelmetACH_Headset_m84",
+			"reaperCrew_HelmetACH_m84",
+			"reaperCrew_HelmetACH_ESS_m84",
+			"reaperCrew_HelmetACH_GCOVERED_m84",
+			"reaperCrew_H_patrol_cap_mm14",
+			"reaperCrew_H_Bonniehat_mm14",
+			"reaperCrew_H_Bonniehat_mm14_hs",
+			"reaperCrew_HelmetACH_GCOVERED_Headset_mm14",
+			"reaperCrew_HelmetACH_ESS_Headset_mm14",
+            "reaperCrew_HelmetACH_Headset_mm14",
+			"reaperCrew_HelmetACH_GCOVERED_mm14",
+			"reaperCrew_HelmetACH_ESS_mm14",
+            "reaperCrew_HelmetACH_mm14",
 			"reaperCrew_IOTV_m84_Empty",
 			"reaperCrew_IOTV_m84_Grenadier",
 			"reaperCrew_IOTV_m84_MG",
@@ -31,13 +66,37 @@ class CfgPatches
 			"reaperCrew_IOTV_m84_SAW",
 			"reaperCrew_IOTV_m84_TL",
 			"reaperCrew_IOTV_m84_SL",
-			"reaperCrew_BDU_mm14",
+			"reaperCrew_IOTV_mm14_Empty",
+			"reaperCrew_IOTV_mm14_Grenadier",
+			"reaperCrew_IOTV_mm14_MG",
+			"reaperCrew_IOTV_mm14_Rifleman",
+			"reaperCrew_IOTV_mm14_SAW",
+			"reaperCrew_IOTV_mm14_TL",
+			"reaperCrew_IOTV_mm14_SL",
             "reaperCrew_BDU_m84",
             "reaperCrew_BDU_gloves_m84",
             "reaperCrew_BDU_roll_m84",
             "reaperCrew_BDU_roll_gloves_m84",
             "reaperCrew_BDU_roll2_m84",
-            "reaperCrew_BDU_roll2_gloves_m84"
+            "reaperCrew_BDU_roll2_gloves_m84",
+            "reaperCrew_BDU_m84_mix",
+            "reaperCrew_BDU_gloves_m84_mix",
+            "reaperCrew_BDU_roll_m84_mix",
+            "reaperCrew_BDU_roll_gloves_m84_mix",
+            "reaperCrew_BDU_roll2_m84_mix",
+            "reaperCrew_BDU_roll2_gloves_m84_mix",
+			"reaperCrew_BDU_mm14",
+			"reaperCrew_BDU_gloves_mm14",
+            "reaperCrew_BDU_roll_mm14",
+            "reaperCrew_BDU_roll_gloves_mm14",
+            "reaperCrew_BDU_roll2_mm14",
+            "reaperCrew_BDU_roll2_gloves_mm14",
+			"reaperCrew_BDU_mm14_mix",
+			"reaperCrew_BDU_gloves_mm14_mix",
+            "reaperCrew_BDU_roll_mm14_mix",
+            "reaperCrew_BDU_roll_gloves_mm14_mix",
+            "reaperCrew_BDU_roll2_mm14_mix",
+            "reaperCrew_BDU_roll2_gloves_mm14_mix"
         };
         requiredVersion = 0.1;
         requiredAddons[] = 
@@ -62,12 +121,33 @@ class CfgWeapons
 	};
 	class H_Booniehat_indp;
 	class H_Booniehat_khk_hs;
+	class CUP_H_US_patrol_cap_WDL;
+	class CUP_H_US_patrol_cap_winter: CUP_H_US_patrol_cap_WDL
+	{
+		class Iteminfo;
+	};
 
+	class reaperCrew_H_patrol_cap_m84: CUP_H_US_patrol_cap_winter
+	{
+		displayName="[RC] Patrol Cap (M-84)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_patrol_cap_m84_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_patrol_cap_m84_CO.paa"
+			};
+		};
+	};
 	class reaperCrew_H_Bonniehat_m84: H_Booniehat_indp
 	{
 		scope=2;
 		scopeCurator=2;
-		displayName="[RC] Booniehat (M84)";
+		displayName="[RC] Booniehat (M-84)";
 		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -78,7 +158,7 @@ class CfgWeapons
 	{
 		scope=2;
 		scopeCurator=2;
-		displayName="[RC] Booniehat (Headset/M84)";
+		displayName="[RC] Booniehat (Headset/M-84)";
 		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
 		model="A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		hiddenSelectionsTextures[]=
@@ -222,11 +302,852 @@ class CfgWeapons
 		ace_hearing_protection=0.75;
 		ace_hearing_lowerVolume=0;
 	};
-
+	class reaperCrew_HelmetACH_m84: ItemCore
+	{
+		scope=2;
+		displayName="[RC] ACH (M-84)";
+		descriptionShort="$STR_A3_SP_AL_II";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_plain.p3d";
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_m84_co.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass=40;
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_plain.p3d";
+			allowedSlots[]={801,901,701,605};
+			modelSides[]={6};
+			armor=3;
+			passThrough=0.5;
+			hiddenSelections[]=
+			{
+				"Camo"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_m84_co.paa"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+		ace_hearing_protection=0.75;
+		ace_hearing_lowerVolume=0;
+	};
+	class reaperCrew_HelmetACH_ESS_m84: ItemCore
+	{
+		scope=2;
+		displayName="[RC] ACH (M-84/Goggles)";
+		descriptionShort="$STR_A3_SP_AL_II";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_ess.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_m84_co.paa",
+			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\data\h_gear_01_rgr_co.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass=40;
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_ess.p3d";
+			allowedSlots[]={801,901,701,605};
+			modelSides[]={6};
+			armor=3;
+			passThrough=0.5;
+			hiddenSelections[]=
+			{
+				"Camo",
+				"camo3"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_m84_co.paa",
+				"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\data\h_gear_01_rgr_co.paa"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+		ace_hearing_protection=0.75;
+		ace_hearing_lowerVolume=0;
+	};
+	class reaperCrew_HelmetACH_GCOVERED_m84: ItemCore
+	{
+		scope=2;
+		displayName="[RC] ACH (M-84/Covered Goggles)";
+		descriptionShort="$STR_A3_SP_AL_II";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_gcovered.p3d";
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_m84_co.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass=40;
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_gcovered.p3d";
+			allowedSlots[]={801,901,701,605};
+			modelSides[]={6};
+			armor=3;
+			passThrough=0.5;
+			hiddenSelections[]=
+			{
+				"Camo"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_m84_co.paa"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+		ace_hearing_protection=0.75;
+		ace_hearing_lowerVolume=0;
+	};
+	class reaperCrew_H_Bonniehat_mm14: H_Booniehat_indp
+	{
+		scope=2;
+		scopeCurator=2;
+		displayName="[RC] Booniehat (MM-14)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_booniehat_mm14_co.paa"
+		};
+	};
+	class reaperCrew_H_Bonniehat_mm14_hs: H_Booniehat_khk_hs
+	{
+		scope=2;
+		scopeCurator=2;
+		displayName="[RC] Booniehat (Headset/MM-14)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_booniehat_mm14_co.paa"
+		};
+	};
+	class reaperCrew_H_patrol_cap_mm14: CUP_H_US_patrol_cap_winter
+	{
+		displayName="[RC] Patrol Cap (MM-14)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_patrol_cap_mm14_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_patrol_cap_mm14_CO.paa"
+			};
+		};
+	};
+	class reaperCrew_HelmetACH_Headset_mm14: ItemCore
+	{
+		scope=2;
+		displayName="[RC] ACH (MM-14/Headset)";
+		descriptionShort="$STR_A3_SP_AL_II";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_headset.p3d";
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_mm14_co.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass=40;
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_headset.p3d";
+			allowedSlots[]={801,901,701,605};
+			modelSides[]={6};
+			armor=3;
+			passThrough=0.5;
+			hiddenSelections[]=
+			{
+				"Camo"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_mm14_co.paa"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+		ace_hearing_protection=0.75;
+		ace_hearing_lowerVolume=0;
+	};
+	class reaperCrew_HelmetACH_ESS_Headset_mm14: ItemCore
+	{
+		scope=2;
+		displayName="[RC] ACH (MM-14/Goggles/Headset)";
+		descriptionShort="$STR_A3_SP_AL_II";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_ess_headset.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_mm14_co.paa",
+			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\data\h_gear_01_rgr_co.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass=40;
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_ess_headset.p3d";
+			allowedSlots[]={801,901,701,605};
+			modelSides[]={6};
+			armor=3;
+			passThrough=0.5;
+			hiddenSelections[]=
+			{
+				"Camo",
+				"camo3"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_mm14_co.paa",
+				"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\data\h_gear_01_rgr_co.paa"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+		ace_hearing_protection=0.75;
+		ace_hearing_lowerVolume=0;
+	};
+	class reaperCrew_HelmetACH_GCOVERED_Headset_mm14: ItemCore
+	{
+		scope=2;
+		displayName="[RC] ACH (MM-14/Covered Goggles/Headset)";
+		descriptionShort="$STR_A3_SP_AL_II";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_gcovered_headset.p3d";
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_mm14_co.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass=40;
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_gcovered_headset.p3d";
+			allowedSlots[]={801,901,701,605};
+			modelSides[]={6};
+			armor=3;
+			passThrough=0.5;
+			hiddenSelections[]=
+			{
+				"Camo"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_mm14_co.paa"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+		ace_hearing_protection=0.75;
+		ace_hearing_lowerVolume=0;
+	};
+	class reaperCrew_HelmetACH_mm14: ItemCore
+	{
+		scope=2;
+		displayName="[RC] ACH (MM-14)";
+		descriptionShort="$STR_A3_SP_AL_II";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_plain.p3d";
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_mm14_co.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass=40;
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_plain.p3d";
+			allowedSlots[]={801,901,701,605};
+			modelSides[]={6};
+			armor=3;
+			passThrough=0.5;
+			hiddenSelections[]=
+			{
+				"Camo"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_mm14_co.paa"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+		ace_hearing_protection=0.75;
+		ace_hearing_lowerVolume=0;
+	};
+	class reaperCrew_HelmetACH_ESS_mm14: ItemCore
+	{
+		scope=2;
+		displayName="[RC] ACH (MM-14/Goggles)";
+		descriptionShort="$STR_A3_SP_AL_II";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_ess.p3d";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_mm14_co.paa",
+			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\data\h_gear_01_rgr_co.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass=40;
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_ess.p3d";
+			allowedSlots[]={801,901,701,605};
+			modelSides[]={6};
+			armor=3;
+			passThrough=0.5;
+			hiddenSelections[]=
+			{
+				"Camo",
+				"camo3"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_mm14_co.paa",
+				"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\data\h_gear_01_rgr_co.paa"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+		ace_hearing_protection=0.75;
+		ace_hearing_lowerVolume=0;
+	};
+	class reaperCrew_HelmetACH_GCOVERED_mm14: ItemCore
+	{
+		scope=2;
+		displayName="[RC] ACH (MM-14/Covered Goggles)";
+		descriptionShort="$STR_A3_SP_AL_II";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_gcovered.p3d";
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_mm14_co.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass=40;
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\ACH\CUP_ACH_gcovered.p3d";
+			allowedSlots[]={801,901,701,605};
+			modelSides[]={6};
+			armor=3;
+			passThrough=0.5;
+			hiddenSelections[]=
+			{
+				"Camo"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_ACH_mm14_co.paa"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+		ace_hearing_protection=0.75;
+		ace_hearing_lowerVolume=0;
+	};
+	
 	// Vests
 	class CUP_V_B_IOTV_Base: ItemCore
 	{
 		class Iteminfo;
+	};
+
+	class reaperCrew_IOTV_mm14_Empty: CUP_V_B_IOTV_Base
+	{
+		scope=2;
+		displayName="[RC] IOTV (Empty/MM-14)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\CUP_iotv_1.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply60";
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\CUP_iotv_1.p3d";
+			armor=20;
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa"
+			};
+			passThrough=0.5;
+			mass=70;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+		};
+	};
+	class reaperCrew_IOTV_mm14_Grenadier: CUP_V_B_IOTV_Base
+	{
+		author="$STR_CUP_AUTHOR_STRING";
+		dlc="CUP_Units";
+		scope=2;
+		displayName="[RC] IOTV (Grenadier/MM-14)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\iotv\CUP_iotv_grenadier.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_accessories_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_acc2_mm14_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply120";
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\iotv\CUP_iotv_grenadier.p3d";
+			armor=20;
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_accessories_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_acc2_mm14_co.paa"
+			};
+			passThrough=0.5;
+			mass=70;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+		};
+	};
+	class reaperCrew_IOTV_mm14_MG: CUP_V_B_IOTV_Base
+	{
+		author="$STR_CUP_AUTHOR_STRING";
+		dlc="CUP_Units";
+		scope=2;
+		displayName="[RC] IOTV (Machinegunner/MM-14)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\iotv\CUP_iotv_mg.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_accessories_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_acc2_mm14_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply120";
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\iotv\CUP_iotv_mg.p3d";
+			armor=20;
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_accessories_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_acc2_mm14_co.paa"
+			};
+			passThrough=0.5;
+			mass=70;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+		};
+	};
+	class reaperCrew_IOTV_mm14_Rifleman: CUP_V_B_IOTV_Base
+	{
+		author="$STR_CUP_AUTHOR_STRING";
+		dlc="CUP_Units";
+		scope=2;
+		displayName="[RC] IOTV (Rifleman/MM-14)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\iotv\CUP_iotv_rifleman_1.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_accessories_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_acc2_mm14_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply120";
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\iotv\CUP_iotv_rifleman_1.p3d";
+			armor=20;
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_accessories_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_acc2_mm14_co.paa"
+			};
+			passThrough=0.5;
+			mass=70;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+		};
+	};
+	class reaperCrew_IOTV_mm14_SAW: CUP_V_B_IOTV_Base
+	{
+		author="$STR_CUP_AUTHOR_STRING";
+		dlc="CUP_Units";
+		scope=2;
+		displayName="[RC] IOTV (SAW/MM-14)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\iotv\CUP_iotv_saw.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_accessories_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_acc2_mm14_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply120";
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\iotv\CUP_iotv_saw.p3d";
+			armor=20;
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_accessories_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_acc2_mm14_co.paa"
+			};
+			passThrough=0.5;
+			mass=70;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+		};
+	};
+	class reaperCrew_IOTV_mm14_TL: CUP_V_B_IOTV_Base
+	{
+		author="$STR_CUP_AUTHOR_STRING";
+		dlc="CUP_Units";
+		scope=2;
+		displayName="[RC] IOTV (Team Leader/MM-14)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\iotv\CUP_iotv_tl.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_accessories_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_acc2_mm14_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply120";
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\iotv\CUP_iotv_tl.p3d";
+			armor=20;
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_accessories_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_acc2_mm14_co.paa"
+			};
+			passThrough=0.5;
+			mass=70;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+		};
+	};
+	class reaperCrew_IOTV_mm14_SL: CUP_V_B_IOTV_Base
+	{
+		author="$STR_CUP_AUTHOR_STRING";
+		dlc="CUP_Units";
+		scope=2;
+		displayName="[RC] IOTV (Squad Leader/MM-14)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\iotv\CUP_iotv_sl.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_accessories_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_acc2_mm14_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass="Supply120";
+			uniformModel="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\iotv\CUP_iotv_sl.p3d";
+			armor=20;
+			hiddenSelectionsTextures[]=
+			{
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_iotv_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_pouches_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_accessories_mm14_co.paa",
+				"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_acc2_mm14_co.paa"
+			};
+			passThrough=0.5;
+			mass=70;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+		};
 	};
 
 	class reaperCrew_IOTV_m84_Empty: CUP_V_B_IOTV_Base
@@ -634,10 +1555,60 @@ class CfgWeapons
     {
 		scope=2;
 		displayName="[RC] BDU (MM-14)";
-		picture="";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
 		class ItemInfo: ItemInfo
 		{
 			uniformClass="U_reaperCrew_BDU_mm14";
+		};
+	};
+	class reaperCrew_BDU_gloves_mm14: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (MM-14, Gloves)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_gloves_mm14";
+		};
+	};
+    class reaperCrew_BDU_roll_mm14: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (MM-14, Rolled)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_roll_mm14";
+		};
+	};
+    class reaperCrew_BDU_roll_gloves_mm14: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (MM-14, Rolled/Gloves)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_roll_gloves_mm14";
+		};
+	};
+    class reaperCrew_BDU_roll2_mm14: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (MM-14, Rolled High)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_roll2_mm14";
+		};
+	};
+    class reaperCrew_BDU_roll2_gloves_mm14: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (MM-14, Rolled High/Gloves)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_roll2_gloves_mm14";
 		};
 	};
     class reaperCrew_BDU_m84: CUP_U_B_BDUv2_OD
@@ -700,8 +1671,128 @@ class CfgWeapons
 			uniformClass="U_reaperCrew_BDU_roll2_gloves_m84";
 		};
 	};
-};
 
+	class reaperCrew_BDU_mm14_mix: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (MM-14/M-84)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_mm14_mix";
+		};
+	};
+	class reaperCrew_BDU_gloves_mm14_mix: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (MM-14/M-84, Gloves)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_gloves_mm14_mix";
+		};
+	};
+    class reaperCrew_BDU_roll_mm14_mix: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (MM-14/M-84, Rolled)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_roll_mm14_mix";
+		};
+	};
+    class reaperCrew_BDU_roll_gloves_mm14_mix: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (MM-14/M-84, Rolled/Gloves)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_roll_gloves_mm14_mix";
+		};
+	};
+    class reaperCrew_BDU_roll2_mm14_mix: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (MM-14/M-84, Rolled High)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_roll2_mm14_mix";
+		};
+	};
+    class reaperCrew_BDU_roll2_gloves_mm14_mix: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (MM-14/M-84, Rolled High/Gloves)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_roll2_gloves_mm14_mix";
+		};
+	};
+    class reaperCrew_BDU_m84_mix: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (M-84/MM-14)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_m84_mix";
+		};
+	};
+    class reaperCrew_BDU_gloves_m84_mix: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (M-84/MM-14, Gloves)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_gloves_m84_mix";
+		};
+	};
+    class reaperCrew_BDU_roll_m84_mix: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (M-84/MM-14, Rolled)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_roll_m84_mix";
+		};
+	};
+    class reaperCrew_BDU_roll_gloves_m84_mix: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (M-84/MM-14, Rolled/Gloves)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_roll_gloves_m84_mix";
+		};
+	};
+    class reaperCrew_BDU_roll2_m84_mix: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (M-84/MM-14, Rolled High)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_roll2_m84_mix";
+		};
+	};
+	class reaperCrew_BDU_roll2_gloves_m84_mix: CUP_U_B_BDUv2_OD
+    {
+		scope=2;
+		displayName="[RC] BDU (M-84/MM-14, Rolled High/Gloves)";
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformClass="U_reaperCrew_BDU_roll2_gloves_m84_mix";
+		};
+	};
+};
 class CfgVehicles
 {
     // Uniforms
@@ -712,20 +1803,6 @@ class CfgVehicles
     class CUP_B_USArmy_Soldier_BDUv2_roll2_OD;
     class CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_OD;
 
-    class U_reaperCrew_BDU_mm14: CUP_B_USArmy_Soldier_BDUv2_OD
-	{
-		scope=1;
-		author="Reaper Crew";
-		uniformClass="reaperCrew_BDU_mm14";
-		hiddenSelectionsTextures[]=
-		{
-			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
-			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
-            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
-            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
-            ""
-		};
-	};
     class U_reaperCrew_BDU_m84: CUP_B_USArmy_Soldier_BDUv2_OD
 	{
 		scope=1;
@@ -814,6 +1891,270 @@ class CfgVehicles
 		};
 	};
 
+    class U_reaperCrew_BDU_mm14: CUP_B_USArmy_Soldier_BDUv2_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_mm14";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_gloves_mm14: CUP_B_USArmy_Soldier_BDUv2_gloves_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_gloves_mm14";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_roll_mm14: CUP_B_USArmy_Soldier_BDUv2_roll_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_roll_mm14";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_roll_gloves_mm14: CUP_B_USArmy_Soldier_BDUv2_roll_gloves_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_roll_gloves_mm14";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_roll2_mm14: CUP_B_USArmy_Soldier_BDUv2_roll2_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_roll2_mm14";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_roll2_gloves_mm14: CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_roll2_gloves_mm14";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_co.paa",
+            ""
+		};
+	};
+
+	class U_reaperCrew_BDU_mm14_mix: CUP_B_USArmy_Soldier_BDUv2_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_mm14_mix";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_gloves_mm14_mix: CUP_B_USArmy_Soldier_BDUv2_gloves_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_gloves_mm14_mix";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_roll_mm14_mix: CUP_B_USArmy_Soldier_BDUv2_roll_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_roll_mm14_mix";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_roll_gloves_mm14_mix: CUP_B_USArmy_Soldier_BDUv2_roll_gloves_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_roll_gloves_mm14_mix";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_roll2_mm14_mix: CUP_B_USArmy_Soldier_BDUv2_roll2_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_roll2_mm14_mix";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_roll2_gloves_mm14_mix: CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_roll2_gloves_mm14_mix";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_co.paa",
+            ""
+		};
+	};
+
+	class U_reaperCrew_BDU_m84_mix: CUP_B_USArmy_Soldier_BDUv2_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_m84_mix";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_gloves_m84_mix: CUP_B_USArmy_Soldier_BDUv2_gloves_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_gloves_m84_mix";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_roll_m84_mix: CUP_B_USArmy_Soldier_BDUv2_roll_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_roll_m84_mix";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_roll_gloves_m84_mix: CUP_B_USArmy_Soldier_BDUv2_roll_gloves_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_roll_gloves_m84_mix";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_roll2_m84_mix: CUP_B_USArmy_Soldier_BDUv2_roll2_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_roll2_m84_mix";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            ""
+		};
+	};
+    class U_reaperCrew_BDU_roll2_gloves_m84_mix: CUP_B_USArmy_Soldier_BDUv2_roll2_gloves_OD
+	{
+		scope=1;
+		author="Reaper Crew";
+		uniformClass="reaperCrew_BDU_roll2_gloves_m84_mix";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_mm14_co.paa",
+            "\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_BDUv2_m84_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_co.paa",
+            ""
+		};
+	};
+
 	//Backpacks
 	class B_AssaultPack_rgr;
 	class B_Carryall_Base;
@@ -869,6 +2210,56 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_RadioBag_m84_co.paa"
+		};
+	};
+	class B_reaperCrew_Assaultpack_mm14: B_AssaultPack_rgr
+	{
+		scope=2;
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		displayName="[RC] Assault Pack (MM-14)";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_backpack_compact_mm14_co.paa"
+		};
+	};
+	class B_reaperCrew_Carryall_mm14: B_Carryall_Base
+	{
+		scope=2;
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		displayName="[RC] Carryall Backpack (MM-14)";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_backpack_tortila_mm14_co.paa"
+		};
+	};
+	class B_reaperCrew_Kitbag_mm14: B_Kitbag_Base
+	{
+		scope=2;
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		displayName="[RC] Kitbag (MM-14)";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_backpack_fast_mm14_co.paa"
+		};
+	};
+	class B_reaperCrew_TacticalPack_mm14: B_TacticalPack_Base
+	{
+		scope=2;
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		displayName="[RC] Tactical Backpack (MM-14)";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_backpack_small_mm14_co.paa"
+		};
+	};
+	class B_reaperCrew_RadioBag_mm14: B_RadioBag_01_black_F
+	{
+		scope=2;
+		picture="\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\ui\reaperCrew_CDF_Icon.paa";
+		displayName="[RC] Radio Pack (MM-14)";
+		hiddenSelectionsTextures[]=
+		{
+			"\RC_Assets_Pack_CUP\addons\reaperCrew_cup_clothing\data\reaperCrew_RadioBag_mm14_co.paa"
 		};
 	};
 };
